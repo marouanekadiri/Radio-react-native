@@ -4,3 +4,4 @@ is a react native javascript components that allow you to create a Radio Button 
 
 ## Installation
 
+	    npm install --save radio-react-native
