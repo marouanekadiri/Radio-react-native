@@ -1,6 +1,6 @@
 {
   "name": "radio-react-native",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main":"index.js",
   "keywords":["react","react-native","RadioButton","Radio","RadioGroup","RadioForm","android","ios"],
   "files": [
@@ -10,13 +10,13 @@
     "lib/"
   ],
   "bugs":{
-    "url" : "https://github.com/marouanekadiri/RadioButton-react-native/issues",
+    "url" : "https://github.com/marouanekadiri/radio-react-native/issues",
     "email" : "marouanekadiri@gmail.com"
   },
   "license": "UNLICENSED",
   "repository" :
   { "type" : "git"
-  , "url" : "https://github.com/marouanekadiri/RadioButton-react-native"
+  , "url" : "https://github.com/marouanekadiri/radio-react-native"
   },
   "author":{
     "name" : "Marouane Kadiri"
