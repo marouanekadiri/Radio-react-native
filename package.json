@@ -1,6 +1,6 @@
 {
   "name": "radio-react-native",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "main":"index.js",
   "keywords":["react","react-native","RadioButton","Radio","RadioGroup","RadioForm","android","ios"],
   "files": [
@@ -28,7 +28,7 @@
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "lib": "babel src/ --out-dir lib --copy-files"
   },
-  "dependencies": {
+  "peerDependencies": {
     "react": "16.2.0",
     "react-native": "0.53.0"
   },
