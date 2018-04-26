@@ -1,6 +1,6 @@
 {
   "name": "radio-react-native",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "main":"index.js",
   "keywords":["react","react-native","RadioButton","Radio","RadioGroup","RadioForm","android","ios"],
   "files": [
