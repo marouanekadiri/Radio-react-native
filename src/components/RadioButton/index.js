@@ -44,7 +44,7 @@ export default class RadioButton extends Component<Props> {
         //clone Radio component to set the checked prop
         let childrens = React.Children.map(this.props.children,(child)=>{
             let returnedChild;
-            if(child.type.displayName === 'Radio'){
+            if(child.type === Radio){
                 occurOfRadio++;
                 returnedChild = (
                     <TouchableOpacity onPress={()=>this.onToggle()}>

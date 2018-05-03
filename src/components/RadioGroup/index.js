@@ -10,6 +10,7 @@ import {
     StyleSheet
 } from 'react-native';
 
+import { RadioButton } from "../../index";
 
 type Props = {
 };
@@ -36,7 +37,7 @@ export default class RadioGroup extends Component<Props> {
             <View style={this.props.style}>
                 {React.Children.map(this.props.children,(child,index)=>{
                     let clonedChild;
-                    if(child.type.displayName === 'RadioButton'){
+                    if(child.type === RadioButton){
                         clonedChild = React.cloneElement(child,
                             {...child.props,
                                 checked:this.state.selectedIndex === index,
